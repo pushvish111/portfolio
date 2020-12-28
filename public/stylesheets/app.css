@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata';
+    box-sizing: border-box;
+    
+}
+.line {
+    width: 100vw;
+  }
+  .left, .right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .left {
+    color: #101820FF;
+    transform: skew(0deg, -15deg);
+    background-color: #D6ED17FF;
+  }
+  .right {
+    color:#D6ED17FF;
+    transform: skew(0deg, 15deg);
+    background-color:#101820FF;
+  }
+  .left .content {
+    width: 100vw;
+    text-align: center;
+  }
+  .right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+  }
+  span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+  }
+
+
+.main{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 55px;
+    color: #DFDCE5FF;
+}
+.first{
+    color: red;
+    font-size:6rem;
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+}
+.vertical{
+    color: red;
+    height: 230px;
+    position: absolute;
+    left: 150px;
+    top: 30%;
+    border-left: 8px solid red;
+}
+.navbar{
+    top: 0;
+    background: transparent;
+    display:  inline-block;
+    color: black;
+    padding: 20px;
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline;
+    float: right;
+    font-size: 2rem;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+.navigate{
+   padding: 0.9em;
+   transition: 0.2s ease-in-out;
+   color: black;
+}
+.navigate:hover{
+    background-color: red;
+    color: white;
+}
+li:hover{
+    color: red;
+    border-color:yellow;
+    border-radius: 1px;
+}
+.about{
+    width: 100%;
+    font-family: sans-serif;
+    padding: 15%;
+}
+
+
+.dp-about{
+    max-width: 100%;
+    height: 40rem;
+    border-radius: 50%;
+    padding: 0%;
+}
+ .dp{
+    margin-right: 2rem;
+    float: left;
+    border: 20px solid #F65058FF;
+    border-radius: 50%;
+    padding: 1%;
+    transition: 0.2s ease-out;
+
+}
+.dp:hover{
+    transform: scale(1.1)
+}
+.about-content{
+    left: 4em; 
+    margin-left: 2rem;
+    width: 100%;
+    z-index: 1;
+    color:  dimgrey;
+    font-weight: 20px;
+}
+.about_heading{
+    font-family: 'Yeseva One', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: black;
+    
+}
+.about_info{
+    font-size: 2rem;
+    font-weight: 20px;
+    padding: 4%;
+    font-family: 'Redressed', cursive;
+    font-weight: 18rem;
+}
+
+
+.skills{
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: 8rem;
+    font-family: 'Yeseva One', cursive;
+
+}
+.tz-gallery {
+    padding: 8% 6%;
+    background-attachment: fixed;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.tz-gallery .lightbox img {
+    width: 60%;
+    height: 34vh;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+    margin-left: 20%;
+    padding: 0.1%;
+    border-radius: 1px;
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 15px grey;
+}
+
+.tz-gallery img {
+    border-radius: 1px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+.contact{
+    margin: 0 auto;
+    text-align: center;
+    padding: 8%;
+}
+.contact-header{
+    font-size: 7rem;
+}
+.icons{
+    color: dimgray;
+    padding: 2rem;
+    font-size: 7rem;
+    transition: 0.2s ease-in-out;
+}
+.icons:hover{
+    transform: scale(2.5);
+    color: orangered;
+}
+
